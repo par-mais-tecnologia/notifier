@@ -1,5 +1,5 @@
 {
-  "name": "notifier",
+  "name": "@parmais/notifier",
   "version": "0.1.0",
   "description": "A node.js library to create and schedule notifications using AWS services",
   "main": "index.js",
