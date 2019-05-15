@@ -39,7 +39,7 @@ You can also set environment variables for these settings:
 
 ```
 NOTIFIER_API_URL=<API_URL>
-NOTIFIER_API_NAME=<API_NAME>
+NOTIFIER_APP_NAME=<APP_NAME>
 NOTIFIER_TEMPLATE_BUCKET=<BUCKET_NAME>
 ```
 
