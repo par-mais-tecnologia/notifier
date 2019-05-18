@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Rafael Alcides da Silva",
+  "license": "Apache-2.0",
   "dependencies": {
     "aws-sdk": "^2.444.0",
     "aws4": "^1.8.0",
