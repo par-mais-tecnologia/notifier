@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/par-mais-tecnologia/notifier.git"
+  },
   "keywords": [],
   "author": "Rafael Alcides da Silva",
   "license": "Apache-2.0",
