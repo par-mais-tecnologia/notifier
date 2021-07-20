@@ -86,6 +86,17 @@ notifier.create({
   });
 ```
 
+Creating a `SMS`:
+
+```js
+notifier.create({
+    sms: {
+      to: '+5548998754321',
+      message: 'Hello user, this is a sms message'
+    }
+  });
+```
+
 ### Update
 
 Just send the notification id you want to update:
@@ -133,6 +144,20 @@ The available fields, types and defaults:
 
 > **NOTE:** At least one of these fields are required: to, cc or bcc
 > **NOTE 2:** If the template field is given, the body type must be an Object
+
+
+### SMS fields
+
+The available fields, types and defaults:
+
+| Field       | Type                     | Required |
+|-------------|--------------------------|----------|
+| to          | String                   |          |
+| phone       | String                   |          |
+| message     | String                   | *        |
+
+> **NOTE:** At least one of these fields are required: to or phone
+> **NOTE 2:** The phone number must be in international format (E.164)
 
 ## Schedule
 
